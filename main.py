@@ -20,7 +20,14 @@ pyautogui.write('https://store.epicgames.com/pt-BR/free-games')
 pyautogui.press('enter')
 pyautogui.PAUSE = 3
 pyautogui.hotkey('winleft','left')
-
 pyautogui.click(943, 412)
+pyautogui.PAUSE=1
+pyautogui.click(144, 563)
+pyautogui.PAUSE = 4
+pyautogui.click(508, 1008)
+pyautogui.PAUSE=1
+pyautogui.click(724, 823)
+pyautogui.PAUSE=5
+pyautogui.click(508, 1008)
 
 
