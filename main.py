@@ -7,6 +7,7 @@ pyautogui.alert("""Automoção preste a ser executada"""
                 """Clique somente em Enter no teclado!""")
 
 
+
 pyautogui.PAUSE = 1
 pyautogui.press('winleft')
 pyautogui.PAUSE = 1
@@ -26,8 +27,9 @@ pyautogui.click(144, 563)
 pyautogui.PAUSE = 4
 pyautogui.click(508, 1008)
 pyautogui.PAUSE=1
-pyautogui.click(724, 823)
-pyautogui.PAUSE=5
-pyautogui.click(508, 1008)
-
+pyautogui.click(867, 18)
+pyautogui.PAUSE = 1
+pyautogui.click(1366, 837)
+time.sleep(7)
+pyautogui.click(1539, 999)
 
